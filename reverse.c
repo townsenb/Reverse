@@ -32,5 +32,7 @@ int main(int argc, char** argv){
 
 	//more info in file_utils.h
 	write_file(writefile,fileMem,size);
+	
+	free(fileMem);
 
 }
